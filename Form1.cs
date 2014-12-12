@@ -37,8 +37,8 @@ namespace MazeFinal
 
 
                     //calculate size and location
-                    int xPosition = (i * TILESIZE) + 13; //13 is padding from left
-                    int yPosition = (j * TILESIZE) + 45; //45 is padding from top
+                    int xPosition = (i * TILESIZE) + 45; //20 is padding from left
+                    int yPosition = (j * TILESIZE) + 30; //45 is padding from top
                     mazeTiles[i, j].SetBounds(xPosition, yPosition, TILESIZE, TILESIZE);
 
                     //make top left and right bottom corner light blue. Used for start and finish
@@ -49,7 +49,7 @@ namespace MazeFinal
                         //make all other tiles white
                         mazeTiles[i, j].BackColor = Color.White;
                         //make it clickable
-
+                        
 
                     }
 
@@ -132,6 +132,7 @@ namespace MazeFinal
         //MAZE 1
         private void button3_Click(object sender, EventArgs e)
         {
+            //To Reset Maze when button is clicked
             //Change all grey tiles to white
             for (int i = 0; i < XTILES; i++)
             {
@@ -156,15 +157,17 @@ namespace MazeFinal
             mazeTiles[0, 0].BackColor = Color.LightBlue;
             mazeTiles[XTILES - 1, YTILES - 1].BackColor = Color.LightBlue;
 
+
+
             //Tried to Randomize variables (not working)
             Random rdm = new Random();
             {
 
-
+                //Start of Maze 1
 
                 for (int i = 1; i <= 23; i++)
                 {
-
+                    //Added in single Variables to create maze
                     mazeTiles[i, 1].BackColor = Color.Black;
                     mazeTiles[0, 2].BackColor = Color.Black;
                     mazeTiles[0, 1].BackColor = Color.Black;
@@ -316,6 +319,8 @@ namespace MazeFinal
         //MAZE 2
         private void button4_Click(object sender, EventArgs e)
         {
+
+            //To reset maze when button is clicked
             //Change all grey tiles to white
             for (int i = 0; i < XTILES; i++)
             {
@@ -339,6 +344,8 @@ namespace MazeFinal
             //Reset start and finish to light blue
             mazeTiles[0, 0].BackColor = Color.LightBlue;
             mazeTiles[XTILES - 1, YTILES - 1].BackColor = Color.LightBlue;
+
+
 
 
             //By Uncommenting or Commenting these lines of code, it will add different paths to MAZE 2.
@@ -490,6 +497,8 @@ namespace MazeFinal
         //MAZE 3
         private void button5_Click(object sender, EventArgs e)
         {
+
+            //Resets Maze with button is clicked
             //Change all grey tiles to white
             for (int i = 0; i < XTILES; i++)
             {
@@ -779,32 +788,6 @@ namespace MazeFinal
 
         }
 
-        private void button6_Click(object sender, EventArgs e)
-        {
-            //Change all grey tiles to white
-            for (int i = 0; i < XTILES; i++)
-            {
-                for (int j = 0; j < YTILES; j++)
-                {
-                    if (mazeTiles[i, j].BackColor == Color.Black)
-                        mazeTiles[i, j].BackColor = Color.White;
-                }
-            }
-
-            for (int i = 0; i < XTILES; i++)
-            {
-                for (int j = 0; j < YTILES; j++)
-                {
-                    if (mazeTiles[i, j].BackColor == Color.Gray)
-                        mazeTiles[i, j].BackColor = Color.White;
-                }
-            }
-
-
-            //Reset start and finish to light blue
-            mazeTiles[0, 0].BackColor = Color.LightBlue;
-            mazeTiles[XTILES - 1, YTILES - 1].BackColor = Color.LightBlue;
-        }
 
         private void label1_Click(object sender, EventArgs e)
         {
