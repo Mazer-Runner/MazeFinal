@@ -1,4 +1,4 @@
-﻿namespace MCS_Week_003_final
+﻿namespace MazeFinal
 {
     partial class Form1
     {

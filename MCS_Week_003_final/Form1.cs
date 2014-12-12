@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace MCS_Week_003_final
+namespace MazeFinal
 {
     public partial class Form1 : Form
     {
@@ -35,7 +35,7 @@ namespace MCS_Week_003_final
                     //initialize a new PictureBox array at cordinate XTILES, YTILES
                     mazeTiles[i, j] = new PictureBox();
 
-                   
+
                     //calculate size and location
                     int xPosition = (i * TILESIZE) + 13; //13 is padding from left
                     int yPosition = (j * TILESIZE) + 45; //45 is padding from top
@@ -49,8 +49,8 @@ namespace MCS_Week_003_final
                         //make all other tiles white
                         mazeTiles[i, j].BackColor = Color.White;
                         //make it clickable
-                   
- 
+
+
                     }
 
                     //Add to controls to form (display picture box)
@@ -64,10 +64,10 @@ namespace MCS_Week_003_final
         private void button1_Click(object sender, EventArgs e)
         {
             //Create a previously searched array
-            bool[,] alreadySearched = new bool[XTILES,YTILES];
+            bool[,] alreadySearched = new bool[XTILES, YTILES];
 
             //Starts the recursive solver at tile (0,0). If false maze can not be solved.
-            if(!solveMaze(0,0, alreadySearched))
+            if (!solveMaze(0, 0, alreadySearched))
                 MessageBox.Show("Maze can not be solved.");
         }
 
@@ -146,129 +146,129 @@ namespace MCS_Week_003_final
 
             //these block horizontal paths   (top to bottom)       
             mazeTiles[16, 0].BackColor = Color.Black;
-          //  mazeTiles[13, 2].BackColor = Color.Black;
+            // mazeTiles[13, 2].BackColor = Color.Black;
             mazeTiles[7, 4].BackColor = Color.Black;
-           // mazeTiles[17, 6].BackColor = Color.Black;
+            //mazeTiles[17, 6].BackColor = Color.Black;
             mazeTiles[15, 8].BackColor = Color.Black;
 
-            mazeTiles[0,20].BackColor = Color.Black;
+            mazeTiles[0, 20].BackColor = Color.Black;
 
             //these block near the exit
-           /// mazeTiles[11, 22].BackColor = Color.Black;
+            /// mazeTiles[11, 22].BackColor = Color.Black;
             mazeTiles[15, 24].BackColor = Color.Black;
             mazeTiles[24, 13].BackColor = Color.Black;
             mazeTiles[22, 14].BackColor = Color.Black;
             mazeTiles[22, 15].BackColor = Color.Black;
             //  mazeTiles[13,2].BackColor = Color.Black;
-            for(int i=4; i<=18; i++)
+            for (int i = 4; i <= 18; i++)
             {   //vertical lines
-                mazeTiles[i,3].BackColor = Color.Black;
-                mazeTiles[i,5].BackColor = Color.Black;
-                mazeTiles[i,7].BackColor = Color.Black;
-                mazeTiles[i,23].BackColor = Color.Black;
+                mazeTiles[i, 3].BackColor = Color.Black;
+                mazeTiles[i, 5].BackColor = Color.Black;
+                mazeTiles[i, 7].BackColor = Color.Black;
+                mazeTiles[i, 23].BackColor = Color.Black;
                 mazeTiles[i, 24].BackColor = Color.Black;
 
                 //horizontal lines
-                mazeTiles[1,i].BackColor = Color.Black;
-                mazeTiles[2,i].BackColor = Color.Black;
-             
+                mazeTiles[1, i].BackColor = Color.Black;
+                mazeTiles[2, i].BackColor = Color.Black;
+
             }
 
             for (int i = 2; i <= 16; i++)
             {
                 //horizontal longer
 
-                mazeTiles[i,1].BackColor = Color.Black;
-               
-                mazeTiles[i,9].BackColor = Color.Black;
-              
+                mazeTiles[i, 1].BackColor = Color.Black;
+
+                mazeTiles[i, 9].BackColor = Color.Black;
+
 
             }
-                for (int i = 14; i < 22; i++)
-                {
+            for (int i = 14; i < 22; i++)
+            {
 
-                    //8 tiles horizaltal
-                    mazeTiles[i,5].BackColor = Color.Black;
-                    mazeTiles[i, 7].BackColor = Color.Black;
-                    mazeTiles[i, 9].BackColor = Color.Black;
-                    mazeTiles[i, 14].BackColor = Color.Black;
-                    mazeTiles[i, 15].BackColor = Color.Black;
-                   
-
-                    
-
-                    //8 tiles vertical 
-                    mazeTiles[4,i].BackColor = Color.Black;
-                    mazeTiles[5,i].BackColor = Color.Black;
-                    mazeTiles[7,i].BackColor = Color.Black;
-                    mazeTiles[9,i].BackColor = Color.Black;
-                    mazeTiles[11, i].BackColor = Color.Black;                 
-                    mazeTiles[13,i].BackColor = Color.Black;
-
-                }
-                for (int i = 9; i <= 12; i++)
-                {
-                    mazeTiles[6,i].BackColor = Color.Black;
-                    mazeTiles[7,i].BackColor = Color.Black;
-                    //blocks these off
-                   // mazeTiles[7,13].BackColor = Color.Black;
-
-                    mazeTiles[11,i].BackColor = Color.Black;
-                }
-
-                    for (int i = 12; i <= 15; i++)
-                    {
-                        //3 tiles horizantal
-                        mazeTiles[i, 9].BackColor = Color.Black;
+                //8 tiles horizaltal
+                mazeTiles[i, 5].BackColor = Color.Black;
+                mazeTiles[i, 7].BackColor = Color.Black;
+                mazeTiles[i, 9].BackColor = Color.Black;
+                mazeTiles[i, 14].BackColor = Color.Black;
+                mazeTiles[i, 15].BackColor = Color.Black;
 
 
-                        //3 tiles vertically
-                        mazeTiles[9, i].BackColor = Color.Black;
-                        mazeTiles[23, i].BackColor = Color.Black;
 
-                    }
+
+                //8 tiles vertical 
+                mazeTiles[4, i].BackColor = Color.Black;
+                mazeTiles[5, i].BackColor = Color.Black;
+                mazeTiles[7, i].BackColor = Color.Black;
+                mazeTiles[9, i].BackColor = Color.Black;
+                mazeTiles[11, i].BackColor = Color.Black;
+                mazeTiles[13, i].BackColor = Color.Black;
+
+            }
+            for (int i = 9; i <= 12; i++)
+            {
+                mazeTiles[6, i].BackColor = Color.Black;
+                mazeTiles[7, i].BackColor = Color.Black;
+                //blocks these off
+                // mazeTiles[7,13].BackColor = Color.Black;
+
+                mazeTiles[11, i].BackColor = Color.Black;
+            }
+
+            for (int i = 12; i <= 15; i++)
+            {
+                //3 tiles horizantal
+                mazeTiles[i, 9].BackColor = Color.Black;
+
+
+                //3 tiles vertically
+                mazeTiles[9, i].BackColor = Color.Black;
+                mazeTiles[23, i].BackColor = Color.Black;
+
+            }
             for (int i = 15; i <= 23; i++)
             {
                 //horizantal tiles
-                mazeTiles[i,1].BackColor = Color.Black;
-                mazeTiles[i,7].BackColor = Color.Black;
-                mazeTiles[i,11].BackColor = Color.Black;
+                mazeTiles[i, 1].BackColor = Color.Black;
+                mazeTiles[i, 7].BackColor = Color.Black;
+                mazeTiles[i, 11].BackColor = Color.Black;
                 mazeTiles[i, 12].BackColor = Color.Black;
 
-                mazeTiles[i,20].BackColor = Color.Black;
-                mazeTiles[i,21].BackColor = Color.Black;
-                
+                mazeTiles[i, 20].BackColor = Color.Black;
+                mazeTiles[i, 21].BackColor = Color.Black;
+
 
                 //vertical 8 tiles
-                mazeTiles[7,i].BackColor = Color.Black;
-                mazeTiles[1,i].BackColor = Color.Black;
-                
+                mazeTiles[7, i].BackColor = Color.Black;
+                mazeTiles[1, i].BackColor = Color.Black;
+
             }
             for (int i = 23; i <= 7; i++)
             {
-                mazeTiles[i,19].BackColor = Color.Black;
+                mazeTiles[i, 19].BackColor = Color.Black;
                 mazeTiles[i, 4].BackColor = Color.Black;
                 mazeTiles[i, 6].BackColor = Color.Black;
 
                 mazeTiles[1, i].BackColor = Color.Black;
-                mazeTiles[6,i].BackColor = Color.Black;
-               
+                mazeTiles[6, i].BackColor = Color.Black;
+
 
             }
             for (int i = 15; i <= 24; i++)
-            {           
+            {
 
                 //horizontal lines 
 
                 // these 3 create rectangle on bottom right
-                mazeTiles[i,17].BackColor = Color.Black;
-                mazeTiles[i,18].BackColor = Color.Black;
-      
+                mazeTiles[i, 17].BackColor = Color.Black;
+                mazeTiles[i, 18].BackColor = Color.Black;
+
             }
             for (int i = 21; i <= 23; i++)
             {
-                mazeTiles[22,i].BackColor = Color.Black;
-                 mazeTiles[23,i].BackColor = Color.Black;
+                mazeTiles[22, i].BackColor = Color.Black;
+                mazeTiles[23, i].BackColor = Color.Black;
             }
             for (int i = 23; i <= 24; i++)
             {
@@ -276,14 +276,14 @@ namespace MCS_Week_003_final
                 mazeTiles[20, i].BackColor = Color.Black;
             }
 
-                for (int i = 1; i <= 5; i++)
-                {
+            for (int i = 1; i <= 5; i++)
+            {
 
 
-                    mazeTiles[23, i].BackColor = Color.Black;
-                }
-        
-                 
+                mazeTiles[23, i].BackColor = Color.Black;
+            }
+
+
         }
     }
 }
