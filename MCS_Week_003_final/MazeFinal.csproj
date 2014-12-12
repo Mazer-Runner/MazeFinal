@@ -59,6 +59,7 @@
     <EmbeddedResource Include="..\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
       <Link>Form1.resx</Link>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
