@@ -1,0 +1,33 @@
+c:\users\kevin\documents\visual studio 2010\Projects\MCS_Week_003_final\MCS_Week_003_final\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\kevin\documents\visual studio 2010\Projects\MCS_Week_003_final\MCS_Week_003_final\obj\x86\Debug\MCS_Week_003_final.Form1.resources
+c:\users\kevin\documents\visual studio 2010\Projects\MCS_Week_003_final\MCS_Week_003_final\obj\x86\Debug\MCS_Week_003_final.Properties.Resources.resources
+c:\users\kevin\documents\visual studio 2010\Projects\MCS_Week_003_final\MCS_Week_003_final\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\kevin\documents\visual studio 2010\Projects\MCS_Week_003_final\MCS_Week_003_final\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\kevin\documents\visual studio 2010\Projects\MCS_Week_003_final\MCS_Week_003_final\bin\Debug\MCS_Week_003_final.exe
+c:\users\kevin\documents\visual studio 2010\Projects\MCS_Week_003_final\MCS_Week_003_final\bin\Debug\MCS_Week_003_final.pdb
+c:\users\kevin\documents\visual studio 2010\Projects\MCS_Week_003_final\MCS_Week_003_final\obj\x86\Debug\MCS_Week_003_final.exe
+c:\users\kevin\documents\visual studio 2010\Projects\MCS_Week_003_final\MCS_Week_003_final\obj\x86\Debug\MCS_Week_003_final.pdb
+C:\Users\erik\Desktop\MCS_Week_003_final\MCS_Week_003_final\MCS_Week_003_final\obj\x86\Debug\MCS_Week_003_final.exe
+C:\Users\erik\Desktop\MCS_Week_003_final\MCS_Week_003_final\MCS_Week_003_final\obj\x86\Debug\MCS_Week_003_final.pdb
+C:\Users\erik\Desktop\MCS_Week_003_final\MCS_Week_003_final\MCS_Week_003_final\bin\Debug\MCS_Week_003_final.exe
+C:\Users\erik\Desktop\MCS_Week_003_final\MCS_Week_003_final\MCS_Week_003_final\bin\Debug\MCS_Week_003_final.pdb
+C:\Users\erik\Desktop\MCS_Week_003_final\MCS_Week_003_final\MCS_Week_003_final\obj\x86\Debug\MCS_Week_003_final.csprojResolveAssemblyReference.cache
+C:\Users\erik\Desktop\MCS_Week_003_final\MCS_Week_003_final\MCS_Week_003_final\obj\x86\Debug\MCS_Week_003_final.Form1.resources
+C:\Users\erik\Desktop\MCS_Week_003_final\MCS_Week_003_final\MCS_Week_003_final\obj\x86\Debug\MCS_Week_003_final.Properties.Resources.resources
+C:\Users\erik\Desktop\MCS_Week_003_final\MCS_Week_003_final\MCS_Week_003_final\obj\x86\Debug\MCS_Week_003_final.csproj.GenerateResource.Cache
+F:\MCS_Week_003_final\MCS_Week_003_final\MCS_Week_003_final\obj\x86\Debug\MCS_Week_003_final.exe
+F:\MCS_Week_003_final\MCS_Week_003_final\MCS_Week_003_final\obj\x86\Debug\MCS_Week_003_final.pdb
+F:\MCS_Week_003_final\MCS_Week_003_final\MCS_Week_003_final\bin\Debug\MCS_Week_003_final.exe
+F:\MCS_Week_003_final\MCS_Week_003_final\MCS_Week_003_final\bin\Debug\MCS_Week_003_final.pdb
+F:\MCS_Week_003_final\MCS_Week_003_final\MCS_Week_003_final\obj\x86\Debug\MCS_Week_003_final.csprojResolveAssemblyReference.cache
+F:\MCS_Week_003_final\MCS_Week_003_final\MCS_Week_003_final\obj\x86\Debug\MCS_Week_003_final.Form1.resources
+F:\MCS_Week_003_final\MCS_Week_003_final\MCS_Week_003_final\obj\x86\Debug\MCS_Week_003_final.Properties.Resources.resources
+F:\MCS_Week_003_final\MCS_Week_003_final\MCS_Week_003_final\obj\x86\Debug\MCS_Week_003_final.csproj.GenerateResource.Cache
+C:\Users\Kale Chenier\Desktop\MCS_Week_003_final\MCS_Week_003_final\MCS_Week_003_final\obj\x86\Debug\MCS_Week_003_final.exe
+C:\Users\Kale Chenier\Desktop\MCS_Week_003_final\MCS_Week_003_final\MCS_Week_003_final\obj\x86\Debug\MCS_Week_003_final.pdb
+C:\Users\Kale Chenier\Desktop\MCS_Week_003_final\MCS_Week_003_final\MCS_Week_003_final\bin\Debug\MCS_Week_003_final.exe
+C:\Users\Kale Chenier\Desktop\MCS_Week_003_final\MCS_Week_003_final\MCS_Week_003_final\bin\Debug\MCS_Week_003_final.pdb
+C:\Users\Kale Chenier\Desktop\MCS_Week_003_final\MCS_Week_003_final\MCS_Week_003_final\obj\x86\Debug\MCS_Week_003_final.csprojResolveAssemblyReference.cache
+C:\Users\Kale Chenier\Desktop\MCS_Week_003_final\MCS_Week_003_final\MCS_Week_003_final\obj\x86\Debug\MCS_Week_003_final.Form1.resources
+C:\Users\Kale Chenier\Desktop\MCS_Week_003_final\MCS_Week_003_final\MCS_Week_003_final\obj\x86\Debug\MCS_Week_003_final.Properties.Resources.resources
+C:\Users\Kale Chenier\Desktop\MCS_Week_003_final\MCS_Week_003_final\MCS_Week_003_final\obj\x86\Debug\MCS_Week_003_final.csproj.GenerateResource.Cache
