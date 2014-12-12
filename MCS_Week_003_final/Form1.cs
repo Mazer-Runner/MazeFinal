@@ -143,7 +143,7 @@ namespace MazeFinal
             Random rdm = new Random();
 
             {
-
+                //START KALE
 
 
                 for (int i = 1; i <= 23; i++)
@@ -294,12 +294,13 @@ namespace MazeFinal
                     mazeTiles[9, k].BackColor = Color.White;
                     
                 }
-               
+               //END KALE
                 
                 
                 
 
             }
+            //START ALEX
 
             //blocks off paths
             // mazeTiles[0,1].BackColor = Color.Black;
@@ -440,6 +441,7 @@ namespace MazeFinal
 
                 mazeTiles[23, i].BackColor = Color.Black;
             }
+            //END ALEX
 
 
 
