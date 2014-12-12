@@ -141,7 +141,7 @@ namespace MazeFinal
         private void Form1_Load(object sender, EventArgs e)
         {
             Random rdm = new Random();
-<<<<<<< HEAD
+
             {
 
 
@@ -300,7 +300,7 @@ namespace MazeFinal
                 
 
             }
-=======
+
             //blocks off paths
             // mazeTiles[0,1].BackColor = Color.Black;
 
@@ -417,12 +417,7 @@ namespace MazeFinal
             }
             for (int i = 15; i <= 24; i++)
             {
->>>>>>> origin/Alex
 
-
-<<<<<<< HEAD
-
-=======
                 // these 3 create rectangle on bottom right
                 mazeTiles[i, 17].BackColor = Color.Black;
                 mazeTiles[i, 18].BackColor = Color.Black;
@@ -445,7 +440,7 @@ namespace MazeFinal
 
                 mazeTiles[23, i].BackColor = Color.Black;
             }
->>>>>>> origin/Alex
+
 
 
         }
