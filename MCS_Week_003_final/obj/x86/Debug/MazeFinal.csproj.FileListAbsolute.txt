@@ -6,30 +6,11 @@ C:\Users\Kale Chenier\Desktop\MCS_Week_003_final\MCS_Week_003_final\MCS_Week_003
 C:\Users\Kale Chenier\Desktop\MCS_Week_003_final\MCS_Week_003_final\MCS_Week_003_final\obj\x86\Debug\MazeFinal.csproj.GenerateResource.Cache
 C:\Users\Kale Chenier\Desktop\MCS_Week_003_final\MCS_Week_003_final\MCS_Week_003_final\obj\x86\Debug\MCS_Week_003_final.exe
 C:\Users\Kale Chenier\Desktop\MCS_Week_003_final\MCS_Week_003_final\MCS_Week_003_final\obj\x86\Debug\MCS_Week_003_final.pdb
-<<<<<<< HEAD
-C:\Users\Alex\Desktop\MazeFinal\MCS_Week_003_final\obj\x86\Debug\MCS_Week_003_final.exe
-C:\Users\Alex\Desktop\MazeFinal\MCS_Week_003_final\obj\x86\Debug\MCS_Week_003_final.pdb
-C:\Users\Alex\Desktop\MazeFinal\MCS_Week_003_final\obj\x86\Debug\MazeFinal.csprojResolveAssemblyReference.cache
-C:\Users\Alex\Desktop\MazeFinal\MCS_Week_003_final\obj\x86\Debug\MazeFinal.Form1.resources
-C:\Users\Alex\Desktop\MazeFinal\MCS_Week_003_final\obj\x86\Debug\MCS_Week_003_final.Properties.Resources.resources
-C:\Users\Alex\Desktop\MazeFinal\MCS_Week_003_final\obj\x86\Debug\MazeFinal.csproj.GenerateResource.Cache
-C:\Users\Alex\Desktop\MazeFinal\MCS_Week_003_final\bin\Debug\MCS_Week_003_final.exe
-C:\Users\Alex\Desktop\MazeFinal\MCS_Week_003_final\bin\Debug\MCS_Week_003_final.pdb
-D:\Documents\GitHub\MazeFinal\MCS_Week_003_final\obj\x86\Debug\MCS_Week_003_final.exe
-D:\Documents\GitHub\MazeFinal\MCS_Week_003_final\obj\x86\Debug\MCS_Week_003_final.pdb
-D:\Documents\GitHub\MazeFinal\MCS_Week_003_final\obj\x86\Debug\MazeFinal.csprojResolveAssemblyReference.cache
-D:\Documents\GitHub\MazeFinal\MCS_Week_003_final\obj\x86\Debug\MazeFinal.Form1.resources
-D:\Documents\GitHub\MazeFinal\MCS_Week_003_final\obj\x86\Debug\MCS_Week_003_final.Properties.Resources.resources
-D:\Documents\GitHub\MazeFinal\MCS_Week_003_final\obj\x86\Debug\MazeFinal.csproj.GenerateResource.Cache
-D:\Documents\GitHub\MazeFinal\MCS_Week_003_final\bin\Debug\MCS_Week_003_final.exe
-D:\Documents\GitHub\MazeFinal\MCS_Week_003_final\bin\Debug\MCS_Week_003_final.pdb
-=======
-C:\Users\Ty\Desktop\MazeFinal\MCS_Week_003_final\obj\x86\Debug\MCS_Week_003_final.exe
-C:\Users\Ty\Desktop\MazeFinal\MCS_Week_003_final\obj\x86\Debug\MCS_Week_003_final.pdb
-C:\Users\Ty\Desktop\MazeFinal\MCS_Week_003_final\obj\x86\Debug\MazeFinal.csprojResolveAssemblyReference.cache
-C:\Users\Ty\Desktop\MazeFinal\MCS_Week_003_final\obj\x86\Debug\MazeFinal.Form1.resources
-C:\Users\Ty\Desktop\MazeFinal\MCS_Week_003_final\obj\x86\Debug\MCS_Week_003_final.Properties.Resources.resources
-C:\Users\Ty\Desktop\MazeFinal\MCS_Week_003_final\obj\x86\Debug\MazeFinal.csproj.GenerateResource.Cache
-C:\Users\Ty\Desktop\MazeFinal\MCS_Week_003_final\bin\Debug\MCS_Week_003_final.exe
-C:\Users\Ty\Desktop\MazeFinal\MCS_Week_003_final\bin\Debug\MCS_Week_003_final.pdb
->>>>>>> origin/Tyler
+C:\Users\Kale Chenier\Desktop\MCS_Week_003_final\MazeFinal\MCS_Week_003_final\obj\x86\Debug\MCS_Week_003_final.exe
+C:\Users\Kale Chenier\Desktop\MCS_Week_003_final\MazeFinal\MCS_Week_003_final\obj\x86\Debug\MCS_Week_003_final.pdb
+C:\Users\Kale Chenier\Desktop\MCS_Week_003_final\MazeFinal\MCS_Week_003_final\bin\Debug\MCS_Week_003_final.exe
+C:\Users\Kale Chenier\Desktop\MCS_Week_003_final\MazeFinal\MCS_Week_003_final\bin\Debug\MCS_Week_003_final.pdb
+C:\Users\Kale Chenier\Desktop\MCS_Week_003_final\MazeFinal\MCS_Week_003_final\obj\x86\Debug\MazeFinal.csprojResolveAssemblyReference.cache
+C:\Users\Kale Chenier\Desktop\MCS_Week_003_final\MazeFinal\MCS_Week_003_final\obj\x86\Debug\MazeFinal.Form1.resources
+C:\Users\Kale Chenier\Desktop\MCS_Week_003_final\MazeFinal\MCS_Week_003_final\obj\x86\Debug\MCS_Week_003_final.Properties.Resources.resources
+C:\Users\Kale Chenier\Desktop\MCS_Week_003_final\MazeFinal\MCS_Week_003_final\obj\x86\Debug\MazeFinal.csproj.GenerateResource.Cache
