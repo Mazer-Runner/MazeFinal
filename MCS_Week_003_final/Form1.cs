@@ -294,10 +294,275 @@ namespace MazeFinal
                     mazeTiles[9, k].BackColor = Color.White;
                     
                 }
+<<<<<<< HEAD
                //END KALE
+=======
+               
+        
+>>>>>>> origin/Tyler
                 
-                
-                
+       
+           
+                for (int i = 0; i <= 23; i++)
+                {
+                    mazeTiles[1, i].BackColor = Color.Black;
+                }
+
+                for (int i = 1; i <= 24; i++)
+                {
+                    mazeTiles[23, i].BackColor = Color.Black;
+                }
+
+                for (int i = 3; i <= 23; i++)
+                {
+                    mazeTiles[i, 1].BackColor = Color.Black;
+                }
+
+                for (int i = 1; i <= 21; i++)
+                {
+                    mazeTiles[i, 23].BackColor = Color.Black;
+                }
+
+                for (int i = 1; i <= 4; i++)
+                {
+                    mazeTiles[i, 21].BackColor = Color.Black;
+                }
+
+                for (int i =18; i <= 20; i++)
+                {
+                    mazeTiles[3, i].BackColor = Color.Black;
+                }
+
+                for (int i = 2; i <= 3; i++)
+                {
+                    mazeTiles[3, i].BackColor = Color.Black;
+                }
+
+                for (int i = 5; i <= 11; i++)
+                {
+                    mazeTiles[3, i].BackColor = Color.Black;
+                }
+
+                for (int i = 15; i <= 21; i++)
+                {
+                    mazeTiles[21, i].BackColor = Color.Black;
+                }
+
+                for (int i = 19; i <= 22; i++)
+                {
+                    mazeTiles[17, i].BackColor = Color.Black;
+                }
+
+                for (int i = 19; i <= 20; i++)
+                {
+                    mazeTiles[i, 21].BackColor = Color.Black;
+                }
+
+                for (int i = 17; i <= 19; i++)
+                {
+                    mazeTiles[i, 18].BackColor = Color.Black;
+                }   
+
+                for (int i = 15; i <= 20; i++)
+                {
+                    mazeTiles[i, 16].BackColor = Color.Black;
+                }
+
+                for (int i = 17; i <= 19; i++)
+                {
+                    mazeTiles[15, i].BackColor = Color.Black;
+                }
+
+                for (int i = 14; i <= 16; i++)
+                {
+                    mazeTiles[i, 21].BackColor = Color.Black;
+                }
+
+                for (int i =19; i <= 22; i++)
+                {
+                    mazeTiles[12, i].BackColor = Color.Black;
+                }
+
+                for (int i = 8; i <= 14; i++)
+                {
+                    mazeTiles[i, 17].BackColor = Color.Black;
+                }
+
+                for (int i = 19; i <= 22; i++)
+                {
+                    mazeTiles[6, i].BackColor = Color.Black;
+                }
+
+                for (int i = 18; i <= 21; i++)
+                {
+                    mazeTiles[8, i].BackColor = Color.Black;
+                }
+
+                for (int i = 10; i <= 11; i++)
+                {
+                    mazeTiles[i, 19].BackColor = Color.Black;
+                }
+
+                for (int i = 9; i <= 10; i++)
+                {
+                    mazeTiles[i, 21].BackColor = Color.Black;
+                }
+
+                for (int i = 3; i <= 14; i++)
+                {
+                    mazeTiles[21, i].BackColor = Color.Black;
+                }
+
+                for (int i = 15; i <= 18; i++)
+                {
+                    mazeTiles[5, i].BackColor = Color.Black;
+                }
+
+                for (int i = 13; i <= 17; i++)
+                {
+                    mazeTiles[7, i].BackColor = Color.Black;
+                }
+
+                for (int i = 3; i <= 4; i++)
+                {
+                    mazeTiles[i, 15].BackColor = Color.Black;
+                }
+
+                for (int i = 2; i <= 5; i++)
+                {
+                    mazeTiles[7, i].BackColor = Color.Black;
+                }
+
+                for (int i = 3; i <= 6; i++)
+                {
+                    mazeTiles[i, 13].BackColor = Color.Black;
+                }
+
+                for (int i = 7; i <= 19; i++)
+                {
+                    mazeTiles[i, 7].BackColor = Color.Black;
+                }
+
+                for (int i = 10; i <= 20; i++)
+                {
+                    mazeTiles[i, 5].BackColor = Color.Black;
+                }
+
+                for (int i = 8; i <= 9; i++)
+                {
+                    mazeTiles[19, i].BackColor = Color.Black;
+                }
+
+                for (int i = 2; i <= 3; i++)
+                {
+                    mazeTiles[19, i].BackColor = Color.Black;
+                }
+
+                for (int i = 3; i <= 4; i++)
+                {
+                    mazeTiles[17, i].BackColor = Color.Black;
+                }
+
+                for (int i = 2; i <= 3; i++)
+                {
+                    mazeTiles[15, i].BackColor = Color.Black;
+                }
+
+                for (int i = 3; i <= 4; i++)
+                {
+                    mazeTiles[13, i].BackColor = Color.Black;
+                }
+
+                for (int i = 2; i <= 3; i++)
+                {
+                    mazeTiles[11, i].BackColor = Color.Black;
+                }
+
+                for (int i = 3; i <= 5; i++)
+                {
+                    mazeTiles[9, i].BackColor = Color.Black;
+                }
+
+                for (int i = 9; i <= 12; i++)
+                {
+                    mazeTiles[5, i].BackColor = Color.Black;
+                }
+
+                for (int i = 9; i <= 9; i++)
+                {
+                    mazeTiles[4, i].BackColor = Color.Black;
+                }
+
+                for (int i = 5; i <= 6; i++)
+                {
+                    mazeTiles[i, 7].BackColor = Color.Black;
+                }
+
+                for (int i = 9; i <= 12; i++)
+                {
+                    mazeTiles[7, i].BackColor = Color.Black;
+                }
+
+                for (int i = 9; i <= 20; i++)
+                {
+                    mazeTiles[i, 12].BackColor = Color.Black;
+                }
+
+                for (int i = 9; i <= 20; i++)
+                {
+                    mazeTiles[i, 14].BackColor = Color.Black;
+                }
+
+                for (int i = 9; i <= 11; i++)
+                {
+                    mazeTiles[9, i].BackColor = Color.Black;
+                }
+
+                for (int i = 11; i <= 11; i++)
+                {
+                    mazeTiles[19, i].BackColor = Color.Black;
+                }
+
+                for (int i = 10; i <= 10; i++)
+                {
+                    mazeTiles[17, i].BackColor = Color.Black;
+                }
+
+                for (int i = 11; i <= 11; i++)
+                {
+                    mazeTiles[15, i].BackColor = Color.Black;
+                }
+
+                for (int i = 10; i <= 10; i++)
+                {
+                    mazeTiles[13, i].BackColor = Color.Black;
+                }
+
+                for (int i = 11; i <= 11; i++)
+                {
+                    mazeTiles[11, i].BackColor = Color.Black;
+                }
+
+                for (int i = 11; i <= 18; i++)
+                {
+                    mazeTiles[i, 9].BackColor = Color.Black;
+                }
+
+            //Single Coordinates
+                mazeTiles[3, 16].BackColor = Color.Black;
+                mazeTiles[2, 5].BackColor = Color.Black;
+                mazeTiles[4, 5].BackColor = Color.Black;
+                mazeTiles[5, 5].BackColor = Color.Black;
+                mazeTiles[5, 4].BackColor = Color.Black;
+                mazeTiles[5, 3].BackColor = Color.Black;
+                mazeTiles[5, 19].BackColor = Color.Black;
+                mazeTiles[19, 19 ].BackColor = Color.Black;
+                mazeTiles[13, 19].BackColor = Color.Black;
+                mazeTiles[7, 6].BackColor = Color.Black;
+                mazeTiles[9, 15].BackColor = Color.Black;
+                mazeTiles[11, 16].BackColor = Color.Black;
+                mazeTiles[13, 15].BackColor = Color.Black;
+                    }}
 
             }
             //START ALEX
@@ -446,5 +711,5 @@ namespace MazeFinal
 
 
         }
-    }
-}
+    
+
