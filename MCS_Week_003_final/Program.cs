@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace MazeFinal
+namespace MCS_Week_003_final
 {
     static class Program
     {

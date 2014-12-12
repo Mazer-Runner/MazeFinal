@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MazeFinal.Properties
+namespace MCS_Week_003_final.Properties
 {
 
 
