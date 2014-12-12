@@ -22,3 +22,5 @@ D:\Documents\GitHub\MazeFinal\MCS_Week_003_final\obj\x86\Debug\MazeFinal.csprojR
 D:\Documents\GitHub\MazeFinal\MCS_Week_003_final\obj\x86\Debug\MazeFinal.Form1.resources
 D:\Documents\GitHub\MazeFinal\MCS_Week_003_final\obj\x86\Debug\MCS_Week_003_final.Properties.Resources.resources
 D:\Documents\GitHub\MazeFinal\MCS_Week_003_final\obj\x86\Debug\MazeFinal.csproj.GenerateResource.Cache
+C:\Users\Kale Chenier\Desktop\MazeFinal\MCS_Week_003_final\obj\x86\Debug\MCS_Week_003_final.exe
+C:\Users\Kale Chenier\Desktop\MazeFinal\MCS_Week_003_final\obj\x86\Debug\MCS_Week_003_final.pdb
