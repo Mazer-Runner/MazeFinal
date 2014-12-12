@@ -294,13 +294,13 @@ namespace MazeFinal
                     mazeTiles[9, k].BackColor = Color.White;
                     
                 }
-<<<<<<< HEAD
+
                //END KALE
-=======
+
                
         
->>>>>>> origin/Tyler
-                
+
+                //Start Tyler
        
            
                 for (int i = 0; i <= 23; i++)
@@ -565,6 +565,10 @@ namespace MazeFinal
                     }}
 
             }
+
+            //END TYLER
+
+        
             //START ALEX
 
             //blocks off paths
